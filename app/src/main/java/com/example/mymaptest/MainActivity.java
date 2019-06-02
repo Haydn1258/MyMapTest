@@ -63,6 +63,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
 
+
+
         naverMapBasicSettings();
         getAddr();
 
@@ -70,6 +72,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             @Override
             public void onClick(View view) {
                 try{
+                    Context ct = getApplicationContext();
+                    GpsTracker gk = new GpsTracker(ct);
                     lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
 
