@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private FusedLocationSource locationSource;
     LocationManager lm;
     Marker marker = new Marker();
-    int i;
+    int i,j;
 
 
 
