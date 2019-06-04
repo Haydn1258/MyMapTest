@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private FusedLocationSource locationSource;
     LocationManager lm;
     Marker marker = new Marker();
+    int i;
 
 
 
@@ -59,6 +60,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         mapView.onCreate(savedInstanceState);
         tv = (TextView)findViewById(R.id.textView);
         bt = (ImageButton)findViewById(R.id.button);
+        
 
 
 
